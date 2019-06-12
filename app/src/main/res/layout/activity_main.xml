@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:src="@drawable/bear"
+                android:id="@+id/bear"/>
+
+            <ImageView android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:src="@drawable/dog"
+                android:id="@+id/dog"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>
