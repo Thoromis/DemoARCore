@@ -50,3 +50,8 @@ sceneform.asset('sampledata/models/dog.fbx',
         'default',
         'sampledata/models/dog.sfa',
         'src/main/res/raw/dog')
+
+sceneform.asset('sampledata/models/hippopotamus.fbx',
+        'default',
+        'sampledata/models/hippopotamus.sfa',
+        'src/main/res/raw/hippopotamus')

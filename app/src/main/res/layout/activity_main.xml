@@ -30,6 +30,11 @@
                 android:layout_width="100dp"
                 android:src="@drawable/dog"
                 android:id="@+id/dog"/>
+
+            <ImageView android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:src="@drawable/hippopotamus"
+                android:id="@+id/hippo"/>
         </LinearLayout>
     </HorizontalScrollView>
 </FrameLayout>
